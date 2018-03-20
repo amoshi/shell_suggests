@@ -1,1 +1,1 @@
-# shell_suggests
+scripts for MEPhI institute (homework)
