@@ -1,5 +1,7 @@
 #!/bin/sh
-[ -z "$1" ] && echo "no arguments" && exit
+[ -z "$1" ] && echo "No arguments: need directory" && exit
+[ ! -e "$1" ] && echo "$1 not found" && exit
+[ ! -d "$1" ] && echo "$1 not a directory" && exit
 
 DIR=$1
 
